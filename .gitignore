@@ -1,0 +1,21 @@
+﻿# 依赖与生成物
+node_modules/
+dist/
+
+# 上游模板（本地克隆，不入库）
+vendor/dashuju-templates/
+
+# 用户生成的大屏
+screens/
+
+# 临时文件
+_scratch/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# 编辑器
+.vscode/
+.idea/
