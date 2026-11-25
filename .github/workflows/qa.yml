@@ -1,0 +1,25 @@
+name: QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  static-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate JSON files
+        run: |
+          node -e "['knowledge/catalog.json','knowledge/data/schema.json','scripts/catalog.schema.json','starter/data/mock.json'].forEach(f=>{JSON.parse(require('fs').readFileSync(f,'utf8'));console.log('ok',f)})"
+      - name: Starter QA
+        run: node scripts/qa.mjs starter
+      - name: Markdown links
+        run: node scripts/check-links.mjs .
+      - name: Generate catalog
+        run: node scripts/build-catalog.mjs
