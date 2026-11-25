@@ -1,4 +1,4 @@
-# AGENTS.md
+# AGENTS.md · 大屏匠（data-screen-builder）
 
 本仓库是一个 **agent-agnostic** 的数据大屏构建 skill。
 

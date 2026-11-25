@@ -7,3 +7,8 @@
 *.woff2 binary
 *.ttf binary
 *.min.js linguist-generated=true
+
+# 打包安装包时排除
+.github/ export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore

@@ -1,4 +1,4 @@
-# 数据大屏知识库 · 总索引
+# 大屏匠 · 数据大屏知识库总索引
 
 > 来源：Gitee 开源项目 [DaShuJuZhiDaPingZhanShi](https://gitee.com/lvyeyou/DaShuJuZhiDaPingZhanShi)（MIT，作者 Lang / lvyeyou），
 > 共 12 个行业、25 套可运行模板，抓取于 2026-11-26，commit `75a203b`。

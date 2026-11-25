@@ -1,9 +1,19 @@
-# Data Screen Skill · 数据大屏构建技能
+# 大屏匠 · Data Screen Builder
 
-把 **25 套真实开源大屏模板** 整理成知识库，再封装成一个**任何 AI Agent 都能用**的数据大屏开发技能：
-它会把你的对话提炼成需求，选一套最合适的布局，生成/改造出可运行的大屏，并预留标准的外部数据接口。
+> 中文名：**大屏匠** ｜ 英文标识：`data-screen-builder` ｜ 一句话：把对话变成一块能投屏的数据大屏。
+
+「大屏匠」是一套面向数据大屏开发的开源技能包。它把 25 套真实行业大屏模板拆解成结构化知识库，涵盖政务、交通、医疗、物流、金融、电商、气象、物联网等 12 个领域，并提炼出六种可复用的布局原型、配色体系、图表配方与投屏质量标准。安装后，任意支持读写文件的 AI Agent 都能按同一套流程工作：先从对话中提炼目标、指标、数据源与视觉偏好，再选择合适的模板与信息架构，生成或定向改造页面，最后完成自检与交付。技能内置可运行的 1920×1080 基线工程，支持 4K 与拼接屏等比缩放；提供统一数据契约，可通过 REST、SSE、WebSocket、iframe 或本地 JSON 接入外部数据，并具备超时重试、断线保留上一帧、示例数据标识等容错能力。它同时适配 Claude Code、Codex、Cursor、Cline 等工具，也能打包成单文件提示词供纯聊天环境使用，帮助团队把「一句话需求」稳定地变成可投屏、可维护、可接真实接口的数据大屏。
 
 ![starter 预览](assets/screenshot-starter.png)
+
+## 下载安装包
+
+| 方式 | 地址 |
+|---|---|
+| **zip 安装包（推荐）** | [data-screen-builder-v1.0.0.zip](https://github.com/jxy162/data-screen-skill/releases/download/v1.0.0/data-screen-builder-v1.0.0.zip) |
+| 源码仓库 | `git clone https://github.com/jxy162/data-screen-skill.git` |
+
+解压后得到 `data-screen-builder/`（`SKILL.md` 在根目录），把整个目录复制到对应 Agent 的 skills 目录即可。
 
 > 上图是 `starter/` 直接用浏览器打开的效果（1920×1080，示例数据）。
 

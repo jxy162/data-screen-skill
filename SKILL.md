@@ -4,6 +4,7 @@ description: 根据用户需求（含历史对话）构建或改造数据大屏�
 license: MIT
 metadata:
   version: "1.0.0"
+  displayName: "大屏匠"
   repository: "https://github.com/jxy162/data-screen-skill"
   upstream: "https://gitee.com/lvyeyou/DaShuJuZhiDaPingZhanShi"
   tags: ["dashboard", "data-screen", "echarts", "datav", "visualization", "大屏", "数据可视化"]
